@@ -1,0 +1,11 @@
+.custom-checkout-wrapper{
+    .side-shape::after{
+        display: none;
+    }
+    .side-shape::before {
+        display: none;
+    }
+    .actual-price{
+        color: #31d7a9;
+    }
+}

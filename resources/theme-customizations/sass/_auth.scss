@@ -1,0 +1,44 @@
+.account-area {
+    .account-form{
+        .form-control{
+            background-color: transparent;
+            &:focus{
+                color: inherit;
+                background-color: inherit;
+                border-color: inherit;
+                outline: 0;
+                box-shadow: inherit;
+            }
+        }
+        .filter-main{
+            .option{
+                margin-bottom: 0;
+            }
+        }
+        .form-group input[type="submit"].disabled{
+            opacity: 0.4;
+        }
+        .pass-graybar {
+            height: 3px;
+            background-color: #ccc;
+            width: 100%;
+            position: relative
+        }
+        
+        .pass-colorbar {
+            height: 3px;
+            position: absolute;
+            top: 0;
+            left: 0
+        }
+        
+        .pass-percent,
+        .pass-text {
+            font-size: 1em
+        }
+        
+        .pass-percent {
+            margin-right: 5px
+        }
+    }
+}
